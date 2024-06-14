@@ -1,0 +1,392 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+body{
+    background-color: rgb(198, 198, 187,0.2);
+}
+
+.main{
+    width: 100%;
+    height: 470px;
+    background-color: aquamarine;
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-size: cover;
+    display: flex;
+   flex-direction: column;
+}
+
+.menu{
+    width: 100%;
+    height: 72px;
+    padding: 17px 0px 17px;
+    font-size: 18px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    /* height: 18px; */ 
+}
+.menu p{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding-bottom: 10px;
+    width:500px ;
+    /* height: 18px; */
+}
+
+.search{
+    height: 222px;
+    width: 100%;
+    justify-self: center;
+    padding-top: 30px;
+  /* display: flex;
+  justify-content: center; */
+}
+.zomato-icon {
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.zomato-icon img{
+    height: 60px;
+}
+.middle{
+   
+   
+    color: white;
+    height: 78px;
+    display: flex;
+    flex-direction: column;
+}
+.middle h1 {
+    font-size: 36px;
+    text-align: center ;
+    margin-top: 30px;
+}
+.bar{
+    height: 84px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.box1{
+    height: 54px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.box1 i.location{
+    color: rgb(185, 33, 104);
+    padding:0px 10px ;
+}
+.box1 i{
+ height: 54px;   
+}
+.box1 input{
+    height: 54px;
+    
+}
+input[type="text"]:focus{
+border: none;
+    
+}
+#input1{
+    width: 176px;
+    border: none;
+}
+#input2{
+    width: 483px;
+    border: none;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;}
+
+    input :hover{
+    border: 1px solid yellowgreen;
+    }
+    .contain {
+        height: 1000px;
+        width: 100%;
+        /* border: 5px solid rgb(29, 194, 164); */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding-top: 40px;
+    }
+    .box{
+        height: 260px;
+        width: 310px;
+        /* border: 2px solid rgb(188, 74, 208); */
+        border-radius: 10px;
+        border: 2px solid #dee2e6;
+       
+        color: black
+    }
+    .box h2{
+        font-size: 23px;
+        font-weight: lighter;
+    }
+    .boxi{
+        height: 200px;
+        width: 100%;
+        background-image: url(https://media.istockphoto.com/id/1300476665/photo/high-angle-view-asian-chinese-womans-hand-on-mobile-app-for-online-food-delivery-during.webp?s=1024x1024&w=is&k=20&c=HrJt69vG-yNIvrz-olT5hCGW_untkYEogJRVoGJXkgg=);
+        background-size: cover;
+        border-radius: 8px;
+    }
+    .box2{
+        height: 200px;
+        width: 100%;
+        background-image: url(https://media.istockphoto.com/id/1287632111/photo/weve-got-you-covered-during-lockdown.webp?s=1024x1024&w=is&k=20&c=9V38DQDkmR5-D4qIZn1SpQeDJ0WaRJDP9QpOVHhSRyA=);
+        background-size: cover;
+        border-radius: 8px;
+    }
+    .box3{
+        height: 200px;
+        width: 100%;
+        background-image: url(https://media.istockphoto.com/id/1253933465/photo/online-food-delivery-concept-for-indian-restaurant-showing-plastic-containers-with-food.webp?s=1024x1024&w=is&k=20&c=YMjxfH21OzQ4UKlvxO-6gjfaOqKXo0BBZN5GWRNknv8=);
+        background-size: cover;
+        border-radius: 8px;
+    }
+    .box4{
+        height: 200px;
+        width: 100%;
+        background-image: url(https://media.istockphoto.com/id/1293175039/photo/handsome-black-african-american-food-delivery-courier-posing-in-front-of-the-camera-in-a.webp?s=1024x1024&w=is&k=20&c=_LoNSzOBWU2I2XSzgROEG1TnDc0tbRtzkzTf9sllzgk=);
+        background-size: cover;
+        border-radius: 8px;
+    }
+    .box5{
+        height: 200px;
+        width: 100%;
+        background-image: url(https://media.istockphoto.com/id/1369503196/photo/focus-on-senior-women-indian-delivery-boy-giving-groceries-to-senior-women-after-opening-door.webp?s=1024x1024&w=is&k=20&c=AXLbJQBlPPEGvu6VEQ7qYAdUPBHEZXi7VPcVNT8mIJQ=);
+        background-size: cover;
+        border-radius: 8px;
+    }
+    .box6{
+        height: 200px;
+        width: 100%;
+        background-image: url(https://media.istockphoto.com/id/1368963483/photo/fast-delivery-growth-of-market-basket-or-consumer-price-index-inflation-or-growth-of-food.webp?s=1024x1024&w=is&k=20&c=zvoHP9FSdg_0opT8Vka8eJkRJ7gGYzPVNP77eD0srrw=);
+        background-size: cover;
+        border-radius: 8px;
+    }
+    .box7{
+        height: 200px;
+        width: 100%;
+        background-image: url(https://media.istockphoto.com/id/1218345771/photo/closeup-of-courier-give-order-to-customer-man-from-delivery-service-bring-pizza-and-coffee.webp?s=1024x1024&w=is&k=20&c=3ns5xZOyy_4Gp8OGuzRjRO5mMQ_IWHbVd761L1zm_Cg=);
+        background-size: cover;
+        border-radius: 8px;
+    }
+    .box8{
+        height: 200px;
+        width: 100%;
+        background-image: url(https://media.istockphoto.com/id/1318003130/photo/man-smiles-while-picking-up-curbside-order.jpg?s=612x612&w=0&k=20&c=pDFAvbKrl3A1ARgkri9gZabr0sgbC5C1ottxsaNPX00=);
+        background-size: cover;
+        border-radius: 8px;
+    }
+    .box9{
+        height: 200px;
+        width: 100%;
+        background-image: url(https://media.istockphoto.com/id/1072243246/photo/female-worker-using-tablet-for-checking-boxes-while-standing-in-food-factory.webp?s=1024x1024&w=is&k=20&c=2gmyPs_V_e0ogXC12IebXilVHWQMAvQm1Umd1QW82qA=);
+        background-size: cover;
+        border-radius: 8px;
+    }
+    .text{
+     padding-left: 20px;   
+    }
+   
+    .box:hover{
+        transform: scale(1.05,1.05);
+        box-shadow: 4px 4px 4px 3px #dee2e6;
+    }
+    .query{
+        width: 100%;
+        height: 500px;
+
+        padding-top: 30px;
+       
+    }
+
+    .ano-menu{
+      height: 300px;
+      width: 100%;
+      
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding-top: 30px;
+      
+
+    }
+    .bo{
+        width: 300px;
+        height: 70px;
+        box-shadow: 2px 2px 2px 2px #dee2e6;
+        border-radius: 5px;
+        line-height: 1.5;
+        overflow: auto;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .bo i{
+        
+    height: 100%;
+    height: 30px;
+    padding: 25px 5px 0px 30px;
+    }
+    .bo p{ 
+        font-size: 20px;
+        font-weight: lighter;
+        width: 80%;
+        height: 20px;
+    }
+    .bo:hover{
+        box-shadow: 1px 1px 1px 1px #dee2e6;
+        transform: scale(1.01,1.01);
+    }
+  
+.bo9 p{
+    width: 100%;
+    height: 20px;
+    padding-top: 10px;
+}
+.bo9 i{
+    width: 100%;
+    text-align: center;
+    height: 16px;
+    padding-bottom: 23px;
+}
+.menu3{
+    height: 300px;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 80px;
+
+}
+.menu3 p{
+    font-size: 40px;
+
+}
+.longbar{
+    height:250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+    .b {
+        height:50px;
+         width: 98%;
+         border: 1px solid #dee2e6;
+         border-radius: 5px;
+    }
+    .b:hover{
+        box-shadow: 1px 1px 1px 1px #dee2e6;
+    }
+    .b span{
+        line-height: 45px;
+        width: 97%;
+        display: inline-block;
+        border: none;
+        color: #6b6f73;
+        padding-left: 30px;
+    }
+
+    .foot{
+        width: 100%;
+        height: 480px;
+        padding: 50px 0 22px 0;
+        /* border: 2px solid black; */
+        background-color: rgb(255, 240, 243,0.3);
+        box-shadow: 10px 10px 10px 10px rgb(230, 227, 232, 0.5);
+    }
+    .z-logo{
+        display: flex;
+        height: 43px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        /* margin-top: 50px; */
+    }
+  .z-logo-clas{
+    width: 80%;
+  }
+  .choose-con{
+ border: 2px solid  #5a6065;
+ border-radius: 5px;
+  }
+  .choose-lan{
+    border: 2px solid #5a6065;
+    border-radius: 5px;
+
+  }
+  .link-list{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
+  .x{
+    /* border: 2px solid black; */
+    width: 20%;
+    height: 212px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+  }
+  .x a{
+    text-decoration: none;
+    color: #6b6f73 ;
+   
+  }
+  .x a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0) ;
+    transform: scale(1.05,1.05);
+  }
+.y{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.z{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    width: 20%;
+}
+.social{
+    display: flex;
+    justify-content:space-between;
+    font-size: 30px;
+}
+.social i:hover {
+    transform: scale(1.25,1.25);
+    
+}
+#playstore:hover{
+    transform: scale(1.25,1.25);
+}
+#apple:hover{
+    transform: scale(1.25,1.25);
+}
+
+@media {
+    
+}
